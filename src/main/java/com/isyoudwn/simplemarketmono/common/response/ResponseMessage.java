@@ -10,6 +10,7 @@ public enum ResponseMessage {
 
     // ORDER
     ORDER_SUCCESS("ORDER-0000", "주문은 완료했습니다."),
+    READ_MY_ORDER_SUCCESS("ORDER-0001", "내 주문 가져오기를 성공했습니다."),
 
     // PRODUCT
     PRODUCT_STOCK_NOT_ENOUGH("PRODUCT-0000", "상품 개수가 충분하지 않습니다."),

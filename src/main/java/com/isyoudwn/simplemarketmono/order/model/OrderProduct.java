@@ -32,7 +32,7 @@ public class OrderProduct {
 
     private Integer quantity;
 
-    @OneToOne
+    @ManyToOne(fetch = FetchType.LAZY)
     private Product product;
 
     public static OrderProduct createOrder(Integer quantity, Product product) {
